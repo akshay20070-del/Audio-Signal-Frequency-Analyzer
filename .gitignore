@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# IDE / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and output
+*.log
+*.out
+
+# Generated reports
+reports/
+*.txt
+
+# Matplotlib cache
+~/.config/matplotlib/
+
+# Jupyter Notebooks (not used here, but good practice)
+.ipynb_checkpoints/
+
+# Large audio files (add your own samples manually)
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# Keep placeholder READMEs in samples/ and screenshots/
+!software/samples/README.md
+!software/screenshots/README.md
